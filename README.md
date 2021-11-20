@@ -19,8 +19,8 @@ The web application was developed using flask framework and deployed using herok
 </ul>
 
 ## Model Selection
-<ul>
 6 regressor models were tried out of which random forest regressor performed really well. Here are the test scores for the models:
+<ul>
 <li>Random Forest - 83.24%</li>
 <li>KNN - 52.2%</li>
 <li>Ridge regressor - 58.6%</li>
