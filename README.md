@@ -16,15 +16,19 @@ The web application was developed using flask framework and deployed using herok
 <li>The dataset used for training the model is  https://www.kaggle.com/nikhilmittal/flight-fare-prediction-mh.</li>
 <li>Dataset contains 10683 rows and 11 columns</li>
 <li>Features are - Airline , Date of Journey, Source, destination, Route, Departure time, Arrival time, Duration, Total Stops, Additional info</li>
-## Methodology
-<ul>
-<li>The dataset used for training the model is  https://www.kaggle.com/nikhilmittal/flight-fare-prediction-mh.</li>
-<li>Dataset contains 10683 rows and 11 columns and Features are - Airline , Date of Journey, Source, destination, Route, Departure time, Arrival time, Duration, Total Stops, Additional info</li>
-<li>Used Word embeddings to convert words to vectors</li>
-<li>Language Modeling: used Recurrent Neural Network and LSTM to generate caption.</li>
 </ul>
 
-### Flowchart of Methodology
+## Model Selection
+<ul>
+6 regressor models were tried out of which random forest regressor performed really well. Here are the test scores for the models:
+<li>Random Forest - 83.24%</li>
+<li>KNN - 52.2%</li>
+<li>Ridge regressor - 58.6%</li>
+<li>Lasso regressor - 60.7%</li>
+<li>Decision Tree regressor - 73.9% </li>
+</ul>
+
+## Flowchart of Methodology
 ![](Flowchart_of_Methodology.JPG)
 
 ## I/O screenshots
