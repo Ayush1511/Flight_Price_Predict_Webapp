@@ -16,7 +16,6 @@ The web application was developed using flask framework and deployed using herok
 <li>The dataset used for training the model is  https://www.kaggle.com/nikhilmittal/flight-fare-prediction-mh.</li>
 <li>Dataset contains 10683 rows and 11 columns</li>
 <li>Features are - Airline , Date of Journey, Source, destination, Route, Departure time, Arrival time, Duration, Total Stops, Additional info</li>
-
 ## Methodology
 <ul>
 <li>The dataset used for training the model is  https://www.kaggle.com/nikhilmittal/flight-fare-prediction-mh.</li>
