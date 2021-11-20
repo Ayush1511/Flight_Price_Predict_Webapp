@@ -26,6 +26,7 @@ The web application was developed using flask framework and deployed using herok
 <li>Ridge regressor - 58.6%</li>
 <li>Lasso regressor - 60.7%</li>
 <li>Decision Tree regressor - 73.9% </li>
+<li>XGB regressor - 83.03%</li>
 </ul>
 
 ## Flowchart of Methodology
