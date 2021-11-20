@@ -23,9 +23,9 @@ The web application was developed using flask framework and deployed using herok
 
 ## I/O screenshots
 ### Input
-![](/Screenshots/Input.JPG)
+![](/Screenshots/Input.png)
 ### Output
-![](/Screenshots/Output.JPG)
+![](/Screenshots/Output.png)
 
 ## Authors
 Ayush Goel
