@@ -1,18 +1,18 @@
 # Flight_Price_Prediction
 ## Description
-This application will generate caption for the image uploaded using a LSTM based deep learning model.
-The web application was developed using flask framework and deployed using heroku and the link for the application is https://image-caption-flask.herokuapp.com/
+A machine learning web app that predicts the price of the flight based on several features. The model is built using Random forest regressor with a R2 score of 81.38% after going through Hyper Parameter tuning(RandomizedSearchCV).
+The web application was developed using flask framework and deployed using heroku and the link for the application is https://flight-prices-prediction-app.herokuapp.com/
 
 ## How to use the application
 <ul>
-<li>The user has to upload image which can be  in any format by clicking on choose file button.</li>
+<li>The user has to enter the various parameters asked in form like arrival date,departure date,source ,destination,stopage and airline name.</li>
 <li>Then press the submit button</li>
-<li>After which the deep learning model at the backend will generate caption for the image uploaded.</li>
+<li>After which the machine learning model at the backend will predict the price of flight.</li>
 </ul>
 
 ## Methodology
 <ul>
-<li>The dataset used for training the model is https://www.kaggle.com/adityajn105/flickr8k.</li>
+<li>The dataset used for training the model is  https://www.kaggle.com/nikhilmittal/flight-fare-prediction-mh.</li>
 <li>Used a 50-layer deep learning model, RESNET-50, to extract features from the image</li>
 <li>Used Word embeddings to convert words to vectors</li>
 <li>Language Modeling: used Recurrent Neural Network and LSTM to generate caption.</li>
