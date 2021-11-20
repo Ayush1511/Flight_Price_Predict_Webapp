@@ -14,7 +14,7 @@ The web application was developed using flask framework and deployed using herok
 ## Methodology
 <ul>
 <li>The dataset used for training the model is  https://www.kaggle.com/nikhilmittal/flight-fare-prediction-mh.</li>
-<li>Used a 50-layer deep learning model, RESNET-50, to extract features from the image</li>
+<li>Dataset contains 10683 rows and 11 columns and Features are - Airline , Date of Journey, Source, destination, Route, Departure time, Arrival time, Duration, Total Stops, Additional info</li>
 <li>Used Word embeddings to convert words to vectors</li>
 <li>Language Modeling: used Recurrent Neural Network and LSTM to generate caption.</li>
 </ul>
