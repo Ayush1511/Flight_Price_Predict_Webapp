@@ -1,6 +1,7 @@
 # Flight_Price_Prediction
 ## Description
 A machine learning web app that predicts the price of the flight based on several features. The model is built using Random forest regressor with a R2 score of 81.38% after going through Hyper Parameter tuning(RandomizedSearchCV).
+
 The web application was developed using flask framework and deployed using heroku and the link for the application is https://flight-prices-prediction-app.herokuapp.com/
 
 ## How to use the application
